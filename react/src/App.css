@@ -1,0 +1,72 @@
+.body {
+  background-color: rgb(0, 0, 0);
+  font-family:  'Arial Narrow';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  margin: 0px;
+  padding: 0px;
+  color: rgb(174, 111, 111);
+}
+
+.App {
+  text-align: center;
+}
+
+h1{  
+  color: red;
+  text-align: center;
+  font-family:monospace;
+  font-size:50px;
+}
+
+h2{
+  color: rgb(201, 20, 20); 
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:xx-large;
+}
+
+.link{
+  color: rgb(180, 127, 127);
+  text-align: center;
+  font-size:x-large;
+}
+
+.caption{
+  color: rgba(219, 19, 19, 0.946);
+  border: 1px solid rgb(232, 209, 209);
+}
+
+tbody{
+  color: rgb(243, 142, 10);
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(228, 226, 218);
+}
+
+
+th,td{
+  border: 1px solid rgb(247, 248, 221);
+  width: 200px;
+}
+
+tr{
+  border: 1px solid;
+  color: rgb(10, 232, 135);
+}
+
+legend{
+  color: #e60d0d;
+}
+
+fieldset{
+  color: rgb(186, 49, 49);
+  text-align: center;
+}
